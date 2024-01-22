@@ -517,14 +517,18 @@ def main() -> int:
 			print("The following value of \"N\" has been skipped as it is not an integer that is larger than 2. \n{0}\n".format(skipped_N))
 		else:
 			print("The following values of \"N\" have been skipped as they are not integers that are larger than 2. \n{0}\n".format(skipped_N))
-	if 0 == len(dicts):
-		print("No experimental results are collected. ")
-	elif 1 == len(dicts):
-		print("The experimental result of the time consumption in seconds is shown as follows. ")
+	if dicts:
+		if 1 == len(dicts):
+			print("The experimental result of the time consumption in seconds is shown as follows. ")
+		else:
+			print("The experimental results of the time consumption in seconds are shown as follows. ")
 		print(dicts)
+		try:
+			print(__import__("pandas").DataFrame(dicts).T)
+		except: # just try to beautify the output if pandas can be used
+			pass
 	else:
-		print("The experimental results of the time consumption in seconds are shown as follows. ")
-		print(dicts)
+		print("No experimental results are collected. ")
 	preExit()
 	print("\n\n\nProgram ended at {0} with exit code {1}. ".format(getCurrentTime(), EXIT_SUCCESS if bRet else EXIT_FAILURE))
 	return EXIT_SUCCESS if bRet else EXIT_FAILURE
