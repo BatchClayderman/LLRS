@@ -38,11 +38,11 @@
 
 ## Exit code
 
-- 0	The Python script finished successfully. 
+- 0: The Python script finished successfully. 
 
-- 1	The Python script finished not passing all the verifications. 
+- 1: The Python script finished not passing all the verifications. 
 
-- -1	The Python script received unrecognized commandline options. 
+- -1: The Python script received unrecognized commandline options. 
 
 ## Note
 
@@ -96,11 +96,11 @@
 
 ## Exit code
 
-- 0	The Python script finished successfully. 
+- 0: The Python script finished successfully. 
 
-- 1	The Python script finished not passing all the verifications. 
+- 1: The Python script finished not passing all the verifications. 
 
-- -1	The Python script received unrecognized commandline options. 
+- -1: The Python script received unrecognized commandline options. 
 
 ## Note
 
