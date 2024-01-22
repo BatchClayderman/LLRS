@@ -459,6 +459,7 @@ def main() -> int:
 	print("Ns: {0}".format(Ns), end = "\n" * 3)
 	bRet = True
 	dicts = {}
+	skipped_N = []
 	for N in Ns:
 		if isinstance(N, int) and N >= 2:
 			print("/** N = {0} **/".format(N))
