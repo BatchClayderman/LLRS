@@ -1,3 +1,5 @@
+# LLRS_v1.0
+
 "LLRS_v1.0.py": A Python script for implementing LLRS, which will solve integer nullspace (Ae = O (mod q)) directly. 
 
 Option: 
@@ -31,6 +33,8 @@ Note:
 	3) The values of N specified from the commandline will be directly appended to those specified by the user within the script. Each value of N should be an integer that is larger than 1. The unsatisfying ones will be set to 2. 
 	4) The value of q should be a 2-based integer that is larger than 2. Otherwise, it will be defaulted to 256. 
 	5) The parameters q, n, m, and k should meet the requirements that "m >= 2n lb q", "4n | m", and "2k | m". If one or more of the requirements are not satisfied, they will be set to their default values respectively. 
+
+# LLRS_v2.0.py
 
 "LLRS_v2.0.py": A Python script for implementing LLRS, which is optimized by improving the TrapGen child procedure. 
 
