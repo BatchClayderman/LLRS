@@ -1,6 +1,6 @@
 # LLRS_v1.0
 
-"LLRS_v1.0.py": A Python script for implementing LLRS, which will solve integer nullspace $***A******e*** = ***O*** (\text{mod} q)$ directly. 
+"LLRS_v1.0.py": A Python script for implementing LLRS, which will solve integer nullspace $***A******e*** = ***O*** (`mod` q)$ directly. 
 
 ## Option
 
