@@ -134,8 +134,6 @@ def TrapGen(pars:PARS) -> tuple:
 	A_0i = randint(q, size = (n, m >> 1)) # size = (n, m / 2)
 	e = lstsq(A_0i, zeros((n, 1), dtype = "int"), rcond = None)[0].astype("int") % q # Ae = 0 (mod q) | size = (m / 2, 1)
 	# e = Matrix(A_0i).nullspace()
-	print(e)
-	input()
 	T_A0i = tile(e, (1, m >> 1)) # size = (m / 2, m / 2)
 	return (A_0i, T_A0i)
 
