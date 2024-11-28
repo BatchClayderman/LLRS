@@ -1,8 +1,24 @@
-# LLRS_v1.0
+# LLRS
+
+This is a reproduced implementation for the paper ``FS-LLRS: Lattice-Based Linkable Ring Signature With Forward Security for Cloud-Assisted Electronic Medical Records``. 
+
+Please use the following Bibtex for citations. 
+
+```
+@article{chen2024fs,
+  title={FS-LLRS: Lattice-based Linkable Ring Signature with Forward Security for Cloud-assisted Electronic Medical Records},
+  author={Chen, Xue and Xu, Shiyuan and Gao, Shang and Guo, Yu and Yiu, Siu-Ming and Xiao, Bin},
+  journal={IEEE Transactions on Information Forensics and Security},
+  year={2024},
+  publisher={IEEE}
+}
+```
+
+## LLRS_v1.0
 
 "LLRS_v1.0.py": A Python script for implementing LLRS, which will solve integer nullspace $***A******e*** = ***O*** (mod *q*)$ directly. 
 
-## Option
+### Option
 
 - [/q|-q|q]: Specify that the following option is the value of q (default: 256). 
 
@@ -18,13 +34,13 @@
 
 - [/h|-h|h|/help|--help|help]: Show this help information. This option is not case-sensitive. 
 
-## Format
+### Format
 
 - ``python "LLRS_v1.0.py" [/q|-q|q] q [/n|-n|n] n [/m|-m|m] m [/d|-d|d] d [/k|-k|k] k [/N|-N|N] N1 N2 ...``
 
 - ``python "LLRS_v1.0.py" [/h|-h|h|/help|--help|help]``
 
-## Example
+### Example
 
 - ``python "LLRS_v1.0.py"``
 
@@ -36,7 +52,7 @@
 
 - ``python "LLRS_v1.0.py" --help``
 
-## Exit code
+### Exit code
 
 - 0: The Python script finished successfully. 
 
@@ -44,7 +60,7 @@
 
 - -1: The Python script received unrecognized commandline options. 
 
-## Note
+### Note
 
 1) All the commandline options are case-sensitive (except "[/h|-h|h|/help|--help|help]") and optional. 
 
@@ -56,11 +72,11 @@
 
 5) The parameters q, n, m, and k should meet the requirements that "m >= 2n lb q", "4n | m", and "2k | m". If one or more of the requirements are not satisfied, they will be set to their default values respectively. 
 
-# LLRS_v2.0.py
+## LLRS_v2.0.py
 
 "LLRS_v2.0.py": A Python script for implementing LLRS, which is optimized by improving the TrapGen child procedure. 
 
-## Option
+### Option
 
 - [/q|-q|q]: Specify that the following option is the value of q (default: 256). 
 
@@ -76,13 +92,13 @@
 
 - [/h|-h|h|/help|--help|help]: Show this help information. This option is not case-sensitive. 
 
-## Format
+### Format
 
 - ``python "LLRS_v2.0.py" [/q|-q|q] q [/n|-n|n] n [/m|-m|m] m [/d|-d|d] d [/k|-k|k] k [/N|-N|N] N1 N2 ...``
 
 - ``python "LLRS_v2.0.py" [/h|-h|h|/help|--help|help]``
 
-## Example
+### Example
 
 - ``python "LLRS_v2.0.py"``
 
@@ -94,7 +110,7 @@
 
 - ``python "LLRS_v2.0.py" --help``
 
-## Exit code
+### Exit code
 
 - 0: The Python script finished successfully. 
 
@@ -102,7 +118,7 @@
 
 - -1: The Python script received unrecognized commandline options. 
 
-## Note
+### Note
 
 1) All the commandline options are case-sensitive (except "[/h|-h|h|/help|--help|help]") and optional. 
 
