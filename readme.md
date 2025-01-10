@@ -1,6 +1,6 @@
 # LLRS
 
-This is the official implementation of the FS-LLRS scheme (``FS-LLRS: Lattice-Based Linkable Ring Signature With Forward Security for Cloud-Assisted Electronic Medical Records``) in Python programming language. 
+This is the official implementation of the LLRS scheme (``FS-LLRS: Lattice-Based Linkable Ring Signature With Forward Security for Cloud-Assisted Electronic Medical Records``) in Python programming language. 
 
 Please use the following Bibtex for citations. 
 
