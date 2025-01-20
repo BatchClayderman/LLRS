@@ -45,7 +45,7 @@ Thank you for your citation.
 
 ## ``LLRS_v1.0.py``
 
-In this version, the integer nullspace $***A******e*** \equiv ***O*** (mod *q*)$ is solved directly. 
+In this version, the integer nullspace $***A******e*** = ***O*** (mod *q*)$ is solved directly. 
 
 ### Usage
 
