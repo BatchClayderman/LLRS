@@ -41,7 +41,7 @@ If you wish to cite this work, please use the following BibTeX.
 }
 ```
 
-Thank you for your citation. 
+Thank you for your citations. 
 
 ## ``LLRS_v1.0.py``
 
