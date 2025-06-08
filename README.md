@@ -45,7 +45,7 @@ Thank you for your citations.
 
 ## ``LLRS_v1.0.py``
 
-In this version, the integer nullspace $***A******e*** = ***O*** (mod *q*)$ is solved directly. 
+In this version, the integer nullspace $***A******e*** = ***O*** (mod *q*)$ is solved by ``lstsq``, where the solution is a fuzzy one. 
 
 ### Usage
 
@@ -62,7 +62,7 @@ In this version, the integer nullspace $***A******e*** = ***O*** (mod *q*)$ is s
 
 ## ``LLRS_v2.0.py``
 
-In this version, the TrapGen child procedure is optimized. 
+In this version, the TrapGen child procedure is optimized based on the first version. 
 
 ### Usage
 
@@ -76,3 +76,37 @@ In this version, the TrapGen child procedure is optimized.
 - ``python "LLRS_v2.0.py" -q 256 -n 256 -m 4096 -d 10 -k 4``
 - ``python "LLRS_v2.0.py" q 256 n 256 m 4096 d 10 k 4 N 2 4 8``
 - ``python "LLRS_v2.0.py" --help``
+
+## ``LLRS_v3.0.py``
+
+This version is based on the first version, where the integer nullspace $***A******e*** = ***O*** (mod *q*)$ is solved according to [https://stackoverflow.com/questions/77932216/solve-integer-matrix-equation-ax-b-mod-q-for-x](https://stackoverflow.com/questions/77932216/solve-integer-matrix-equation-ax-b-mod-q-for-x). 
+
+### Usage
+
+- ``python "LLRS_v3.0.py" [/q|-q|q] q [/n|-n|n] n [/m|-m|m] m [/d|-d|d] d [/k|-k|k] k [/N|-N|N] N1 N2 ...``
+- ``python "LLRS_v3.0.py" [/h|-h|h|/help|--help|help]``
+
+### Example
+
+- ``python "LLRS_v3.0.py"``
+- ``python "LLRS_v3.0.py" /q 256 /n 256 /m 4096``
+- ``python "LLRS_v3.0.py" -q 256 -n 256 -m 4096 -d 10 -k 4``
+- ``python "LLRS_v3.0.py" q 256 n 256 m 4096 d 10 k 4 N 2 4 8``
+- ``python "LLRS_v3.0.py" --help``
+
+## ``LLRS_v4.0.py``
+
+This version is based on the second version, where the integer nullspace $***A******e*** = ***O*** (mod *q*)$ is solved according to [https://stackoverflow.com/questions/77932216/solve-integer-matrix-equation-ax-b-mod-q-for-x](https://stackoverflow.com/questions/77932216/solve-integer-matrix-equation-ax-b-mod-q-for-x). 
+
+### Usage
+
+- ``python "LLRS_v4.0.py" [/q|-q|q] q [/n|-n|n] n [/m|-m|m] m [/d|-d|d] d [/k|-k|k] k [/N|-N|N] N1 N2 ...``
+- ``python "LLRS_v4.0.py" [/h|-h|h|/help|--help|help]``
+
+### Example
+
+- ``python "LLRS_v4.0.py"``
+- ``python "LLRS_v4.0.py" /q 256 /n 256 /m 4096``
+- ``python "LLRS_v4.0.py" -q 256 -n 256 -m 4096 -d 10 -k 4``
+- ``python "LLRS_v4.0.py" q 256 n 256 m 4096 d 10 k 4 N 2 4 8``
+- ``python "LLRS_v4.0.py" --help``
