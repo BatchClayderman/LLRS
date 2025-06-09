@@ -79,7 +79,7 @@ In this version, the TrapGen child procedure is optimized based on the first ver
 
 ## ``LLRS_v3.0.py``
 
-This version is based on the first version, where the integer nullspace $***A******e*** = ***O*** (mod *q*)$ is solved according to [https://stackoverflow.com/questions/77932216/solve-integer-matrix-equation-ax-b-mod-q-for-x](https://stackoverflow.com/questions/77932216/solve-integer-matrix-equation-ax-b-mod-q-for-x). 
+This version is based on the first version, where the integer nullspace $***A******e*** = ***O*** (mod *q*)$ is solved according to [https://stackoverflow.com/questions/77932216/solve-integer-matrix-equation-ax-b-mod-q-for-x](https://stackoverflow.com/questions/77932216/solve-integer-matrix-equation-ax-b-mod-q-for-x). The solution should be exact, with more time required for computation. 
 
 ### Usage
 
@@ -96,7 +96,7 @@ This version is based on the first version, where the integer nullspace $***A***
 
 ## ``LLRS_v4.0.py``
 
-This version is based on the second version, where the integer nullspace $***A******e*** = ***O*** (mod *q*)$ is solved according to [https://stackoverflow.com/questions/77932216/solve-integer-matrix-equation-ax-b-mod-q-for-x](https://stackoverflow.com/questions/77932216/solve-integer-matrix-equation-ax-b-mod-q-for-x). 
+This version is based on the second version, where the integer nullspace $***A******e*** = ***O*** (mod *q*)$ is solved according to [https://stackoverflow.com/questions/77932216/solve-integer-matrix-equation-ax-b-mod-q-for-x](https://stackoverflow.com/questions/77932216/solve-integer-matrix-equation-ax-b-mod-q-for-x). The solution should be exact, with more time required for computation. 
 
 ### Usage
 
